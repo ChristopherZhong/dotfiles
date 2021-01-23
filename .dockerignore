@@ -1,0 +1,6 @@
+# ignore everything
+*
+# except the following
+!dist
+!package.json
+!package-lock.json

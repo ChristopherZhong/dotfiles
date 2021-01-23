@@ -1,0 +1,35 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+.editorconfig text
+.dockerignore text
+.gitattributes text
+.gitignore text
+*.c text diff=cpp
+*.cs text diff=csharp
+*.csproj text eol=crlf
+*.h text
+*.java text diff=java
+*.kt text
+*.md text
+*.py text diff=python
+*.sln text eol=crlf
+*.txt text
+*.yaml text
+*.yml text
+
+uwsgi.yaml text eol=lf
+uwsgi.yml text eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.eps binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.svg binary
+*.tif binary
+*.tiff binary

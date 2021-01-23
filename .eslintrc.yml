@@ -1,0 +1,17 @@
+root: true
+parser: '@typescript-eslint/parser'
+parserOptions:
+  project: tsconfig.json
+  sourceType: module
+extends:
+  - eslint:recommended  # use the recommended eslint rules
+  - plugin:@typescript-eslint/recommended  # use the recommended rules from the @typescript-eslint/eslint-plugin
+  - plugin:@typescript-eslint/recommended-requiring-type-checking  # extra typing rules for TypeScript
+  - prettier/@typescript-eslint  # use eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
+  - plugin:prettier/recommended  # enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array
+rules:
+  sort-imports: error
+  '@typescript-eslint/consistent-type-imports': error
+  '@typescript-eslint/member-ordering': error
+  '@typescript-eslint/method-signature-style': error
+  '@typescript-eslint/no-unnecessary-boolean-literal-compare': error
