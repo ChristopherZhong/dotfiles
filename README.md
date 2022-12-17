@@ -2,42 +2,56 @@
 
 My list of dotfiles
 
-- [.dockerignore](.dockerignore)
+- [.dockerignore]
 
-  Ignore file for [Docker](https://www.docker.com/).
+  Ignore file for [Docker].
   See https://docs.docker.com/engine/reference/builder/#dockerignore-file for more details
 
-- [.editorconfig](.editorconfig)
+- [.editorconfig]
 
-  Configuration file for [EditorConfig](https://editorconfig.org/).
+  Configuration file for [EditorConfig].
   See https://editorconfig.org/#overview for more details
 
-- [.eslintignore](.eslintignore)
+- [.eslintignore]
   
-  Ignore file for [ESLint](https://eslint.org/).
+  Ignore file for [ESLint].
   See https://eslint.org/docs/latest/user-guide/configuring/ignoring-code#the-eslintignore-file for more details
 
-- [.eslintrc.yml](.eslintrc.yml)
+- [.eslintrc.yml]
 
-  Configuration file [ESLint](https://eslint.org/).
+  Configuration file [ESLint].
   See https://eslint.org/docs/latest/user-guide/configuring/configuration-files for more details
 
-- [.gitattributes](.gitattributes)
+- [.gitattributes]
 
-  Path attributes for [Git](https://git-scm.com/).
+  Path attributes for [Git].
   See https://git-scm.com/docs/gitattributes for more details
 
-- [.gitignore](.gitignore)
+- [.gitignore]
 
-  Ignore file for [Git](https://git-scm.com/).
+  Ignore file for [Git].
   See https://git-scm.com/docs/gitignore for more details
 
-- [.prettierignore](.prettierignore)
+- [.prettierignore]
 
-  Ignore file for [Prettier](https://prettier.io/).
+  Ignore file for [Prettier].
   See https://prettier.io/docs/en/ignore.html for more details
 
-- [.prettierrc.yml](.prettierrc.yml)
+- [.prettierrc.yml]
 
-  Configuration file for [Prettier](https://prettier.io/).
+  Configuration file for [Prettier].
   See https://prettier.io/docs/en/configuration.html for more details
+
+[Docker]: https://www.docker.com/
+[.dockerignore]: .dockerignore
+[EditorConfig]: https://editorconfig.org/
+[.editorconfig]: .editorconfig
+[ESLint]: https://eslint.org/
+[.eslintignore]: .eslintignore
+[.eslintrc.yml]: .eslintrc.yml
+[Git]: https://git-scm.com/
+[.gitattributes]: .gitattributes
+[.gitignore]: .gitignore
+[Prettier]: https://prettier.io/
+[.prettierignore]: .prettierignore
+[.prettierrc.yml]: .prettierrc.yml
