@@ -1,0 +1,7 @@
+'*.{js,jsx,ts,tsx}':
+  - eslint --cache --fix
+  - prettier --write
+'*.{graphql,json,md,yaml,yml}':
+  - prettier --write
+'*.prisma':
+  - prisma format --schema

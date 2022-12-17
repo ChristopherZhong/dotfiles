@@ -24,7 +24,7 @@ My list of dotfiles
 
 - [.eslintrc.yml]
 
-  Configuration file [ESLint].
+  Configuration file for [ESLint].
   See https://eslint.org/docs/latest/user-guide/configuring/configuration-files for more details
 
 - [.gitattributes]
@@ -36,6 +36,11 @@ My list of dotfiles
 
   Ignore file for [Git].
   See https://git-scm.com/docs/gitignore for more details
+
+- [.lintstagedrc.yml]
+
+  Configuration file for [lint-staged].
+  See https://github.com/okonet/lint-staged#configuration for more details
 
 - [.prettierignore]
 
@@ -59,6 +64,8 @@ My list of dotfiles
 [Git]: https://git-scm.com/
 [.gitattributes]: .gitattributes
 [.gitignore]: .gitignore
+[lint-staged]: https://github.com/okonet/lint-staged
+[.lintstagedrc.yml]: .lintstagedrc.yml
 [Prettier]: https://prettier.io/
 [.prettierignore]: .prettierignore
 [.prettierrc.yml]: .prettierrc.yml
