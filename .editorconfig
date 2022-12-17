@@ -7,12 +7,12 @@ root=true
 [*]
 charset=utf-8
 end_of_line=lf
-insert_final_newline=true
 
 # Java/Kotlin
 [*.{java,kt}]
-indent_style = space
 indent_size = 4
+indent_style = space
+insert_final_newline=true
 trim_trailing_whitespace = true
 
 # Markdown
@@ -20,8 +20,8 @@ trim_trailing_whitespace = true
 trim_trailing_whitespace=false
 
 [{.babelrc,.stylelintrc,jest.config,.eslintrc,*.bowerrc,*.jsb3,*.jsb2,*.json}]
-indent_style=space
 indent_size=2
+indent_style=space
 
 # X-separated files
 [*.{csv,tsv}]
@@ -30,13 +30,15 @@ tab_width=1
 
 # Yaml files
 [*.{yml,yaml}]
-indent_style=space
 indent_size=2
+indent_style=space
 
 # JavaScript/TypeScript files
 [*.{js,jsx,ts,tsx}]
 indent_size = 2
 indent_style = space
+insert_final_newline=true
+trim_trailing_whitespace = true
 
 # GraphQL schema files
 [*.graphql]
