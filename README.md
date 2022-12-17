@@ -2,6 +2,11 @@
 
 My list of dotfiles
 
+- [.commitlintrc.yml]
+
+  Configuration file for [commitlint].
+  See https://commitlint.js.org/#/reference-configuration for more details
+
 - [.dockerignore]
 
   Ignore file for [Docker].
@@ -42,6 +47,8 @@ My list of dotfiles
   Configuration file for [Prettier].
   See https://prettier.io/docs/en/configuration.html for more details
 
+[commitlint]: https://commitlint.js.org/
+[.commitlintrc.yml]: .commitlintrc.yml
 [Docker]: https://www.docker.com/
 [.dockerignore]: .dockerignore
 [EditorConfig]: https://editorconfig.org/
