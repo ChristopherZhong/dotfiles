@@ -1,4 +1,4 @@
-# Ignore artifacts:
+# Ignore artifacts
 build
 coverage
 dist
@@ -12,3 +12,9 @@ tsconfig.json
 
 # IntelliJ
 .idea
+
+# Visual Studio Code
+.vscode
+
+# Python virtual environment
+venv
