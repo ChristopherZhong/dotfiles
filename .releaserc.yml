@@ -1,0 +1,9 @@
+branches:
+  - main
+extends:
+  - '@semantic-release/gitlab-config'
+plugins:
+  - - '@semantic-release/commit-analyzer'
+    - preset: conventionalcommits
+  - - '@semantic-release/release-notes-generator'
+    - preset: conventionalcommits
